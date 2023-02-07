@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  margin-top: 300px;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: rgb(108, 198, 239);
+  border: 10px solid rgb(7, 154, 234);
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-10px);
+  background-color: rgb(2, 139, 202);
+  color: rgb(255, 255, 255);
+}
